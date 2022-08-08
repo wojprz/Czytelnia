@@ -10,7 +10,7 @@ namespace Czytelnia.Models
         public string Title { get; set; }
         public string Author { get; set; }
         public int Pages { get; set; } = 0;
-        public DateTime CreatedDate { get; set; } = DateTime.Now;
+        public DateTime DateOfAddition { get; set; } = DateTime.Now;
 
     }
 }
